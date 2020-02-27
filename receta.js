@@ -29,6 +29,6 @@ export default class Receta {
       Ingredientes:`)
       this.ingredientes.forEach( (ingrediente, i) => {
       console.log(`${i+1}. ${ingrediente.getDescripcion()}`)})
-      console.log(`Costo total: $${this.getCosto()}`)
+      console.log(`Costo total: ${this.getCosto()}`)
   }
 }
